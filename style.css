@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    background-color: #FFC;
+    user-select: none;
+}
+
+.nobutton{
+    display: none;
+}
+
+.button:active{
+    background-color: #8A8;
+}
+
+.button{
+    display: block;
+    height: 40px;
+    background-color: #ACA;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 8%;
+    padding: 3px 8px;
+    margin-right: 5px;
+}
+
+#q{
+    margin-left: 5%;
+    margin-top: 10px;
+    width: 70%;
+    height: 50px;
+    font-size: 30px;
+    padding: 0 10%;
+    text-align: center;
+    background-color: #9CF;
+    color: #333;
+    border-radius: 5px;
+}
